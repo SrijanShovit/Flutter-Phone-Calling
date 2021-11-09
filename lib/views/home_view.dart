@@ -20,10 +20,10 @@ class HomeView extends GetView<HomeController> {
               child: Text("Call"),
               onPressed: () {
                 //for copyiing phone no to dialer
-                // launch('tel:9431003166');
+                // launch('tel:***********');
 
                 //to directly call on the mobile number
-                FlutterPhoneDirectCaller.callNumber("9431003166");
+                FlutterPhoneDirectCaller.callNumber("***********");
               },
             ),
           ),
